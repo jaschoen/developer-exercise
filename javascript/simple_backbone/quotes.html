@@ -2,11 +2,31 @@
                     "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="styles/backgrid-paginator.css">
+  <link rel="stylesheet" type="text/css" href="styles/quotes.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
   <script src="http://code.jquery.com/jquery-latest.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+
+  <script src="js/vendor/backbone.paginator.js"></script>
+  <script src="js/vendor/backgrid.js"></script>
+  <script src="js/vendor/backgrid-paginator.js"></script>
+
+  <script src="js/models/quoteModel.js"></script>
+  <script src="js/views/quoteView.js"></script>
+  <script src="js/collections/quoteCollection.js"></script>
+  <script src="js/simpleBackbone.js"></script>
+  
 </head>
 <body>
+<div>
+  <div id="grid"></div>
+  <div id="paginator"></div>
+</div>
+
+  
 
 </body>
 </html>

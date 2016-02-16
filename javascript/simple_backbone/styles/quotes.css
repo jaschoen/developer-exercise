@@ -1,0 +1,7 @@
+html {
+  margin: 20px;
+}
+
+.backgrid td {
+ 	min-width: 150px;
+}
